@@ -1,0 +1,40 @@
+name: flutter_stacked_template
+description: Flutter Stacked architecture template
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+
+  ################### mine ###################
+  # state management
+  stacked: ^1.7.6
+  # navigation
+  auto_route: ^0.6.7
+  stacked_services: ^0.5.4+4
+  # inversion of control
+  get_it: ^5.0.1
+  injectable: ^1.0.4
+  # widgets
+  circular_check_box: ^1.0.2
+  flutter_icons: ^1.1.0
+  cached_network_image: ^2.2.0+1
+  ################### mine end ###################
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  ################### mine ###################
+  build_runner:
+  auto_route_generator: ^0.6.7
+  injectable_generator: ^1.0.4
+  ################### mine end ###################
+
+flutter:
+  uses-material-design: true
