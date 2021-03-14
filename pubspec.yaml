@@ -16,9 +16,9 @@ dependencies:
   stacked: ^1.7.6
   # navigation
   auto_route: ^0.6.7
-  stacked_services: ^0.5.4+4
+  stacked_services: ^0.7.3
   # inversion of control
-  get_it: ^5.0.1
+  get_it: ^6.0.0
   injectable: ^1.0.4
   # widgets
   circular_check_box: ^1.0.2

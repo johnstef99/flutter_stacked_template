@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      navigatorKey: locator<NavigationService>().navigatorKey,
+      navigatorKey: StackedService.navigatorKey,
       onGenerateRoute: MyRouter(),
       initialRoute: Routes.homeView,
     );
