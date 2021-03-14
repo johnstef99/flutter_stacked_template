@@ -29,20 +29,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.5.0"
-  auto_route:
-    dependency: "direct main"
-    description:
-      name: auto_route
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.6.9"
-  auto_route_generator:
-    dependency: "direct dev"
-    description:
-      name: auto_route_generator
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.6.10"
   boolean_selector:
     dependency: transitive
     description:
@@ -134,13 +120,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.2"
-  circular_check_box:
-    dependency: "direct main"
-    description:
-      name: circular_check_box
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.4"
   cli_util:
     dependency: transitive
     description:
@@ -244,13 +223,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.0"
-  flutter_icons:
-    dependency: "direct main"
+  flutter_hooks:
+    dependency: transitive
     description:
-      name: flutter_icons
+      name: flutter_hooks
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.0"
+    version: "0.16.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -264,7 +243,7 @@ packages:
     source: hosted
     version: "3.26.0"
   get_it:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: get_it
       url: "https://pub.dartlang.org"
@@ -305,20 +284,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.1.4"
-  injectable:
-    dependency: "direct main"
-    description:
-      name: injectable
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.2.0"
-  injectable_generator:
-    dependency: "direct dev"
-    description:
-      name: injectable_generator
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.6"
   intl:
     dependency: transitive
     description:
@@ -347,6 +312,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.1.0"
+  logger:
+    dependency: transitive
+    description:
+      name: logger
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.9.4"
   logging:
     dependency: transitive
     description:
@@ -381,7 +353,7 @@ packages:
       name: nested
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.0.4"
+    version: "1.0.0"
   node_interop:
     dependency: transitive
     description:
@@ -402,7 +374,7 @@ packages:
       name: observable_ish
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.1.4"
+    version: "2.1.5"
   octo_image:
     dependency: transitive
     description:
@@ -500,7 +472,7 @@ packages:
       name: provider
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "4.3.2+2"
+    version: "5.0.0"
   pub_semver:
     dependency: transitive
     description:
@@ -522,6 +494,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.4+1"
+  recase:
+    dependency: transitive
+    description:
+      name: recase
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.0.1"
   rxdart:
     dependency: transitive
     description:
@@ -589,7 +568,21 @@ packages:
       name: stacked
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.7.6"
+    version: "1.9.7"
+  stacked_generator:
+    dependency: "direct dev"
+    description:
+      name: stacked_generator
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.2.3"
+  stacked_hooks:
+    dependency: "direct main"
+    description:
+      name: stacked_hooks
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.4"
   stacked_services:
     dependency: "direct main"
     description:

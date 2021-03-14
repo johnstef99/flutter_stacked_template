@@ -1,10 +1,11 @@
-import 'package:flutter_stacked_template/app/locator.dart';
-import 'package:flutter_stacked_template/app/router.gr.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_stacked_template/app/app.locator.dart';
+import 'package:flutter_stacked_template/app/app.router.dart';
 import 'package:stacked_services/stacked_services.dart';
 
-void main() {
-  setupLocator();
+Future<void> main() async {
+  //ignore: await_only_futures
+  await setupLocator();
   runApp(MyApp());
 }
 
@@ -17,8 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       navigatorKey: StackedService.navigatorKey,
-      onGenerateRoute: MyRouter(),
-      initialRoute: Routes.homeView,
+      onGenerateRoute: StackedRouter().onGenerateRoute,
     );
   }
 }
